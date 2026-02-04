@@ -13,14 +13,14 @@ body, p{
 .container{
     position: relative;
     display: inline-block;
-    width: 100%;
+    width: fit-content;
     flex-direction: column-reverse;
 }
 /* centers text */
 .textContent{
     top: 20%;
     left: 10%;
-    width:25%;
+    width:fit-content;
     position: absolute;
 }
 
@@ -29,7 +29,7 @@ body, p{
     font-size: 30px;
     margin: 0px;
     line-height: 90%;
-    top: 2.5%;
+    top: 5%;
     left: 10%;
     width:25%;
     position: absolute;
@@ -49,6 +49,7 @@ body, p{
 }
 
 .button{
+    margin: 10px;
     padding: 15px;
     text-decoration: none;
     background-color: transparent;
@@ -70,8 +71,16 @@ body, p{
 
 #panel, .flip {
   padding: 10px;
-  color: white;
+  color: rgb(255, 255, 255);
   margin: auto;
+}
+
+.flip:hover{
+      color: white;
+}
+
+.flip:visited{
+      color: rgb(47, 47, 47);
 }
 
 #panel {
