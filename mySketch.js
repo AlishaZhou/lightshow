@@ -21,7 +21,14 @@ var myCanvas = createCanvas(windowWidth, windowHeight);
     noCursor();
   }
 }
-
+function myFunction() {
+  var x = document.getElementById("panel");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
 
 class Mirror{
   constructor(){

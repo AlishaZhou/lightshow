@@ -9,15 +9,20 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
 <script src="mySketch.js"></script>
 </head>
-<body>
-    <a href="index.html" class="home"> < Return Home </a>
 
+<div class="container">
+    <div class="toggleContent">
+    <p class="flip" onclick="myFunction()">< Toggle Text > </p>
+    </div>
+<body>
     <div id="mySketchGame"></div>
 </body>
     <div class="textContent">
-        <div class="bask">
-    <p>The LightShow</p>
-</div>
-</div>
+        <div id="panel">
+            <div class="bask">
+                <p>The LightShow</p>
+                <a href="index.html" class="button"> Return Home </a>
+            </div>
+    </div>
 </div>
 </html>

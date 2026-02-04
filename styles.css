@@ -14,12 +14,24 @@ body, p{
     position: relative;
     display: inline-block;
     width: 100%;
+    flex-direction: column-reverse;
 }
 /* centers text */
 .textContent{
     top: 20%;
     left: 10%;
-    width:30%;
+    width:25%;
+    position: absolute;
+}
+
+.toggleContent{
+    font-family: Baskerville;
+    font-size: 30px;
+    margin: 0px;
+    line-height: 90%;
+    top: 2.5%;
+    left: 10%;
+    width:25%;
     position: absolute;
 }
 
@@ -56,27 +68,12 @@ body, p{
     text-decoration: none;
 }
 
-.home{
-    top: 2.5%;
-    left: 2.5%;
-    width:fit-content;
-    position: absolute;
-    padding: 15px;
-    text-decoration: none;
-    background-color: transparent;
-    color:white;
-    font-size: 30px;
-}
-
-.home:visited {
+#panel, .flip {
+  padding: 10px;
   color: white;
-  text-decoration: none;
-  background-color: transparent;
+  margin: auto;
 }
 
-.home:hover {
-    border: 3px solid white;
-    border-radius: 20px;
-    background-color: transparent;
-    text-decoration: none;
+#panel {
+  display: block;
 }
